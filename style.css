@@ -1,0 +1,98 @@
+body {
+  background: #d8cfc3;
+}
+
+@keyframes colorize {
+  0% {
+    color: #f46542;
+  }
+
+  10% {
+    color: #f4a941
+  }
+
+  20% {
+    color: #f4df41
+  }
+
+  30% {
+    color: #a6f441
+  }
+
+  40% {
+    color: #5bf441
+  }
+
+  50% {
+    color: #41f494
+  }
+  
+  60% {
+    color: #41f4ee
+  }
+  
+  70% {
+    color: #4197f4
+  }
+  
+  80% {
+    color: #4146f4
+  }
+  
+  90% {
+    color: #8e41f4
+  }
+  
+  100% {
+    color: #f44194
+  }
+}
+
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  padding: 20px;
+  color: #efa845;
+  font-size: 50px;
+  display: inline-block;
+
+  animation: colorize 5s linear infinite alternate;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 22%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.box:nth-child(1) {
+  background-color: #3eb749;
+}
+
+.box:nth-child(2) {
+  background-color: #3e68b7;
+}
+
+.box:nth-child(3) {
+  background-color: #ba0568;
+}
+
+.box:nth-child(4) {
+  background-color: #ba280a;
+}
